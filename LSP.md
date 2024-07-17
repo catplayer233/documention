@@ -70,7 +70,7 @@ LSP: 语言服务器协议（Language Sever Protocol），是微软开源发布�
 ## VSCODE
 这里我们通过vscode的方案，来了解一下LSP具体是怎么应用的。
 
-![image](./asset/lsp_2.PNG)
+![image](./asset/lsp_2.png)
 
 在vscode中，语言插件由两部分组成：
 - client: 常规的vscode插件，通常使用js以及ts来编写，可以使用vscode提供的插件api。
@@ -81,11 +81,11 @@ LSP: 语言服务器协议（Language Sever Protocol），是微软开源发布�
 ### luahelper
 该插件的目录结构中就包含了client以及server
 
-![image](./asset/lsp_3.PNG)
+![image](./asset/lsp_3.png)
 
 通过查看进程信息，我们也可以发现该插件对应的语言服务器进程：linuxlualsp
 
-![image](./asset/lsp_4.PNG)
+![image](./asset/lsp_4.png)
 
 ## 参考
 - [Overview](https://microsoft.github.io/language-server-protocol/overviews/lsp/overview/)
